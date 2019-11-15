@@ -4,6 +4,33 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: Instrumentation
+  label: Agent
+  match: "**/*"
+- type: heading
+  label: Getting Started
+- type: heading
+  label: Discovery
+- type: heading
+  label: Alert Management
+- type: heading
+  label: Monitoring
+- type: heading
+  label: Deployment
+- type: heading
+  label: Instrumentation
+- type: document
+  path: Discovery
+  label: Understanding Discovery
+  match: "**/*"
+- type: directory
+  path: ''
+  label: Home
+  create: all
+  match: "**/*"
+  templates:
+  - landing-page
 - type: heading
   label: Content
 - type: jekyll-posts
