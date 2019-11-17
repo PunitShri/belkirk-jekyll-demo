@@ -7,7 +7,6 @@ sections:
 - type: document
   path: Instrumentation
   label: Agent
-  match: "**/*"
 - type: heading
   label: Getting Started
 - type: heading
@@ -23,7 +22,6 @@ sections:
 - type: document
   path: Discovery
   label: Understanding Discovery
-  match: "**/*"
 - type: directory
   path: ''
   label: Home
