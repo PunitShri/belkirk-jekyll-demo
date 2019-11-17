@@ -1,0 +1,8 @@
+Agent
+An Agent is an executable application that runs on managed Windows and Linux devices.
+An Agent manages devices such as servers, desktop and laptops.
+Master Agent
+
+A Master Agent supports additional monitoring, it functions as an SNMP trap listener within the environment, also performs scheduled Ping, URL, and DNS monitoring.
+Any existing Agent can be configured as Master Agent.
+A client can have multiple master Agents within the network.
